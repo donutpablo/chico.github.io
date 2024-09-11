@@ -1,0 +1,78 @@
+:root {
+    --colorprimary: #7b195c;
+    --colorsecondary: #FFEBD4
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "SUSE", sans-serif;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--colorprimary);
+    padding: 20px 40px;
+    color: white;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.title > img {
+    width: 50px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+
+}
+
+.menu > a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu > a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+main > img{
+    width: 30%;
+    align-self: center;
+    aspect-ratio: 16/9;
+    margin-bottom: 20px;
+}
+
+main > h3{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+main > p{
+    padding-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    text-indent: 30px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,70 @@
+:root {
+    --colorprimary: #7b195c;
+    --colorsecondary: #FFEBD4
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "SUSE", sans-serif;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--colorprimary);
+    padding: 20px 40px;
+    color: white;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.title > img {
+    width: 50px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+
+}
+
+.menu > a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu > a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.hobi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hobi > video{
+    width: 450px;
+}

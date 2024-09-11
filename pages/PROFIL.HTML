@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/PROFIL.CSS">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <img src="/images/chibi.png" alt="chibi">
+            <h1>WEB</h1>
+        </div>
+        <div class="menu">
+            <a href="/index.html">ARTIKEL</a>
+            <a href="/pages/CONTACT.HTML">CONTACT</a>
+            <a href="/pages/PROFIL.HTML">PROFIL</a>
+            <a href="/pages/HOBY.HTML">HOBY</a>
+
+        </div>
+    </header>
+    <main>
+        <div><img src="/images/Fernando Torres Photostream.jpg" alt=""></div>
+        <div class="about">
+            <h2>About Me</h2>
+            <table>
+                <tr>
+                    <td class="ident"> <b>Nama</b></td>
+                    <td>:</td>
+                    <td><span class="nama"></span></td>
+                </tr>
+                <tr>
+                    <td class="ident"> <b>Kelas</b></td>
+                    <td>:</td>
+                    <td><span class="kelas"></span></td>
+                </tr>
+                <tr>
+                    <td class="ident"><b>Absen</b></td>
+                    <td>:</td>
+                    <td><span class="Absen"></span></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+</body>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    new Typed(".nama", {
+        strings:["Chico Endar Adikara"],
+        typeSpeed: 100,
+        backSpeed: 20,
+        loop: true
+    })
+    new Typed(".kelas", {
+        strings:["X-PPLG"],
+        typeSpeed: 100,
+        backSpeed: 20,
+        loop: true
+    })
+    new Typed(".Absen", {
+        strings:["08"],
+        typeSpeed: 100,
+        backSpeed: 20,
+        loop: true
+    })
+</script>
+</html>
